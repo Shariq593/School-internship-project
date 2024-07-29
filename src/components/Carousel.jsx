@@ -1,10 +1,11 @@
 import React from 'react';
-import { Swiper, SwiperSlide, } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules'; 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Lazy } from 'swiper/modules'; 
 import './../../node_modules/swiper/swiper-bundle.min.css'; // Adjust import based on Swiper version
+
 const cultural = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260273/cultural_sxpefn.jpg';
 const exhibition = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260409/Exhibition-1_xctqxv.png';
-const annual = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260316/annual_y5xz04.jpg'
+const annual = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260316/annual_y5xz04.jpg';
 
 const Carousel = () => {
   return (
@@ -13,15 +14,17 @@ const Carousel = () => {
       slidesPerView={1}
       pagination={{ clickable: true }}
       navigation={true}
-      modules={[Navigation, Pagination]}
+      lazy={true}
+      modules={[Navigation, Pagination, Lazy]}
       className="w-full h-96 md:h-[40rem]"
     >
       <SwiperSlide>
         <div className="relative w-full h-full shadow-lg">
           <img
-            src= {annual}
+            src={annual}
             alt="First slide"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full swiper-lazy"
+            loading="lazy"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white">
             <div className="text-center">
@@ -36,7 +39,8 @@ const Carousel = () => {
           <img
             src={exhibition}
             alt="Second slide"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full swiper-lazy"
+            loading="lazy"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white">
             <div className="text-center">
@@ -49,9 +53,10 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="relative w-full h-full">
           <img
-            src={cultural} 
+            src={cultural}
             alt="Third slide"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full swiper-lazy"
+            loading="lazy"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white">
             <div className="text-center">

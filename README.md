@@ -62,3 +62,8 @@ This is a React-based web application for a school website for MadRocket Technol
 3. **react-countup**: For number count-up animations.
 4. **react-lazyload**: For lazy loading images and components.
 5. **react-toastify:** For toast notifications.
+
+
+
+
+**Updated Images to Links because of Deployment Issues**

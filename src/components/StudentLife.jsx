@@ -19,7 +19,7 @@ const achievements = [
     name: 'Tech Innovators Club',
     title: 'Winners of Inter-School Robotics Competition',
     description: 'The club has been at the forefront of innovation, recently winning a prestigious robotics competition.',
-    image: 'src/assets/Student/john.jpg',
+    image: 'https://github.com/Shariq593/School-internship-project/blob/deploy/src/assets/Student/john.jpg',
   },
 ];
 

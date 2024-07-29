@@ -7,19 +7,19 @@ const achievements = [
     name: 'John Smith',
     title: 'National Level Math Olympiad Winner',
     description: 'John has consistently shown excellence in mathematics, achieving top ranks in numerous competitions.',
-    image: 'src/assets/Student/tech.jpg',
+    image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261550/Tech_bkfhvx.jpg',
   },
   {
     name: 'Sarah Lee',
     title: 'Gold Medalist in State Swimming Championship',
     description: 'Sarah has demonstrated outstanding athletic abilities, particularly in swimming where she won a gold medal.',
-    image: 'src/assets/Student/sarah.jpg',
+    image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261547/sarah_zhdqkx.jpg',
   },
   {
     name: 'Tech Innovators Club',
     title: 'Winners of Inter-School Robotics Competition',
     description: 'The club has been at the forefront of innovation, recently winning a prestigious robotics competition.',
-    image: 'src/assets/Student/john.jpg',
+    image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261558/john_lhyr14.jpg',
   },
 ];
 

@@ -1,5 +1,6 @@
 // src/Admission.js
-import backgroundImage from '/src/assets/bg-admission.jpg'; // Import the image
+const backgroundImage = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259365/bg-admission_dtqbsf.jpg';
+const calendar = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259238/calendar_zqsnou.jpg';
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -75,7 +76,7 @@ const Admission = () => {
           <div className="md:flex">
             <div className="md:w-1/2">
               <img
-                src="src/assets/calendar.jpeg"
+                src={calendar}
                 alt="admission calendar"
                 className="w-full h-auto rounded-b-2xl md:rounded-r-none md:rounded-l-2xl"
               />

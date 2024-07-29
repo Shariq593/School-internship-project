@@ -1,6 +1,9 @@
 import React from 'react'
 import CountUp from 'react-countup';
-
+const grid = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259234/img-grid_cyx8is.jpg';
+const engage = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259234/engage_zbi832.png';
+const graduation = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259232/graduation_boe23t.png';
+const empower = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259231/empower_rsxjfr.png';
 function Info() {
   return (
     <div>
@@ -56,7 +59,7 @@ function Info() {
           </div>
           <div className="w-full md:w-1/2 p-4">
               <div className="flex flex-wrap justify-center">
-                <img src="src\assets\img-grid.jpg" alt="Image 1" className="w-1/2 h-auto mx-2 mb-4" />
+                <img src={grid} alt="Image 1" className="w-1/2 h-auto mx-2 mb-4" />
               </div>
             </div>
           </div>
@@ -68,17 +71,17 @@ function Info() {
           </div>
           <div className="flex flex-wrap justify-center">
             <div className="text-center mx-4 mb-8 w-1/2 md:w-1/4">
-                <img src="src\assets\empower.png" alt="Empower" className="mx-auto mb-4" />
+                <img src={empower} alt="Empower" className="mx-auto mb-4" />
                 <h4 className="font-semibold">Empower</h4>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
             </div>
             <div className="text-center mx-4 mb-8 w-1/2 md:w-1/4">
-                <img src="src\assets\engage.png" alt="Engage" className="mx-auto mb-4" />
+                <img src={engage} alt="Engage" className="mx-auto mb-4" />
                 <h4 className="font-semibold">Engage</h4>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
             </div>
             <div className="text-center mx-4 mb-8 w-1/2 md:w-1/4">
-                <img src="src\assets\graduation.png" alt="Graduation" className="mx-auto mb-4" />
+                <img src={graduation} alt="Graduation" className="mx-auto mb-4" />
                 <h4 className="font-semibold">Graduation</h4>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
             </div>

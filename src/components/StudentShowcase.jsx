@@ -5,17 +5,17 @@ const StudentShowcase = () => {
     {
       name: 'Amy Parker (Grade XII) - President',
       description: 'Amy is a highly decorated athlete and community leader, with a strong commitment to the school motto: "Not to be served, but to serve."',
-      image: 'src/assets/Student/Amy.jpg', 
+      image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261547/Amy_dmtnoi.jpg', 
     },
     {
       name: 'Rajiv Mehta (Grade XI) - Vice President',
       description: 'Rajiv is an outstanding student with a passion for science and technology. She has won several awards in science fairs and is the president of the robotics club.',
-      image: 'src/assets/Student/rajiv.jpg', 
+      image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261575/Rajiv_i3p3vv.webp', 
     },
     {
       name: 'Lisa Wong (Grade X) - Secretary',
       description: 'Lisa excels in both academics and sports. She is the captain of the soccer team and a secretary of the student council.',
-      image: 'src/assets/Student/Lisa.jpg', 
+      image: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261547/Lisa_jne2op.jpg', 
     },
   ];
 

@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
+
+
 const Gallery = () => {
   const [filter, setFilter] = useState('all');
 
   const photos = [
-    { src: 'src/assets/Gallery/sports.jpeg', alt: 'Students participating in various sports events.' },
-    { src: 'src/assets/Gallery/science.jpg', alt: 'Students presenting their science projects.' },
-    { src: 'src/assets/Gallery/cultural.jpg', alt: 'Students performing in the cultural fest.' },
-    { src: 'src/assets/Gallery/classroom.jpeg', alt: 'A glimpse of our interactive classrooms.' },
-    { src: 'src/assets/Gallery/library.jpeg', alt: 'Students reading and studying in the school library.' },
+    { src: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261003/sports_e3787f.jpg', alt: 'Students participating in various sports events.' },
+    { src: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260972/science_ur3a8p.jpg', alt: 'Students presenting their science projects.' },
+    { src: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260971/cultural_qotdv1.jpg', alt: 'Students performing in the cultural fest.' },
+    { src: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261000/classroom_hlk8lf.jpg', alt: 'A glimpse of our interactive classrooms.' },
+    { src: 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722261011/library_ud6dvz.jpg.', alt:'Library'},
   ];
 
   const videos = [

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LazyLoad from 'react-lazyload';
+const grad = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722259239/grad_abicvh.jpg';
 
 const Events = () => {
   const [events, setEvents] = useState([
@@ -12,7 +13,7 @@ const Events = () => {
     <div className="flex flex-col md:flex-row h-full bg-gray-200">
       <div className="relative w-full md:w-2/3 h-64 md:h-auto">
         <LazyLoad height={400} offset={100}>
-          <img src="src/assets/grad.jpg" alt="Virtual Tour" className="w-full h-full object-cover" />
+          <img src={grad} alt="Virtual Tour" className="w-full h-full object-cover" />
         </LazyLoad>
         <div className="absolute inset-0 flex flex-col justify-center md:justify-between p-4 bg-black bg-opacity-50 text-white">
           <div className="text-center mb-8">

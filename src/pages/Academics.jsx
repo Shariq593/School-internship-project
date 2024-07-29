@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+const {academicphoto} = '';
 const Academics = () => {
   return (
     <div>
@@ -20,7 +20,7 @@ const Academics = () => {
               </ul>
             </div>
             <div className='mb-12 w-1/2'>
-              <img src='src\assets\Academics\academics.jpg' alt='academics' className='rounded-lg' ></img>
+              <img src="https://res.cloudinary.com/dnheukxzt/image/upload/v1722260956/academics_ceoqok.jpg" alt='academics' className='rounded-lg' />
             </div>
           </div>
 

@@ -1,6 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+const history = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260663/history_pcwhok.jpg';
+const infrastructure = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260661/infrastructure_ppfs7c.jpg';
+const vision = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260649/Vision_fahhuh.jpg'
+const mission = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260647/Motto_New_ztjhv0.jpg'
 
 const AboutUs = () => {
   return (
@@ -12,7 +16,7 @@ const AboutUs = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
             <div className="flex justify-center md:justify-end">
-              <img src="src/assets/About/history.jpg" alt="Springdale Public School Building" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
+              <img src={history} alt="Springdale Public School Building" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="flex flex-col justify-center">
               <h3 className="text-4xl font-bold underline mb-4 text-gray-800">Our History</h3>
@@ -30,13 +34,13 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="flex justify-center md:justify-end order-1 md:order-2">
-              <img src="src/assets/About/Vision.jpg" alt="Vision" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
+              <img src={vision} alt="Vision" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
             <div className="flex justify-center md:justify-end">
-              <img src="src/assets/About/Motto_New.jpg" alt="Mission" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
+              <img src={mission} alt="Mission" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="flex flex-col justify-center">
               <h3 className="text-4xl font-bold underline mb-4 text-gray-800">Mission</h3>
@@ -61,7 +65,7 @@ const AboutUs = () => {
               </ul>
             </div>
             <div className="flex justify-center md:justify-end order-1 md:order-2">
-              <img src="src/assets/About/infrastructure.jpeg" alt="Facilities" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
+              <img src={infrastructure} alt="Facilities" className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>

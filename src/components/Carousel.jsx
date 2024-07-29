@@ -2,6 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide, } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules'; 
 import './../../node_modules/swiper/swiper-bundle.min.css'; // Adjust import based on Swiper version
+const cultural = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260273/cultural_sxpefn.jpg';
+const exhibition = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260409/Exhibition-1_xctqxv.png';
+const annual = 'https://res.cloudinary.com/dnheukxzt/image/upload/v1722260316/annual_y5xz04.jpg'
 
 const Carousel = () => {
   return (
@@ -16,7 +19,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="relative w-full h-full shadow-lg">
           <img
-            src="src\assets\Carousel\annual.jpg" 
+            src= {annual}
             alt="First slide"
             className="object-cover w-full h-full"
           />
@@ -31,7 +34,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="relative w-full h-full">
           <img
-            src="src\assets\Carousel\Exhibition-1.png" 
+            src={exhibition}
             alt="Second slide"
             className="object-cover w-full h-full"
           />
@@ -46,7 +49,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="relative w-full h-full">
           <img
-            src="src\assets\Carousel\cultural.jpeg" 
+            src={cultural} 
             alt="Third slide"
             className="object-cover w-full h-full"
           />

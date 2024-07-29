@@ -39,7 +39,7 @@ const Gallery = () => {
               <li key={index}>
                 <figure className="relative overflow-hidden">
                   {item.src.endsWith('.jpeg') || item.src.endsWith('.jpg') ? (
-                    <img src={item.src} alt={item.alt} className="w-full h-full object-cover transition-transform duration-500" />
+                    <img src={item.src} alt={item.alt} loading='lazy' className="w-full h-full object-cover transition-transform duration-500" />
                   ) : (
                     <video src={item.src} controls className="w-full h-full object-cover" />
                   )}

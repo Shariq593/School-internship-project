@@ -1,6 +1,6 @@
 # School Website
 
-This is a React-based web application for a school website for MadRocket Technologies. It includes pages for Home, About Us, Academics, Admission, Gallery, Contact Us, Student, and Faculty. It also features a carousel and dynamic content with lazy loading.
+This is a React-based web application for a school website for MadRocket Technologies And Media. It includes pages for Home, About Us, Academics, Admission, Gallery, Contact Us, Student, and Faculty. It also features a carousel and dynamic content with lazy loading.
 
 ## Features
 

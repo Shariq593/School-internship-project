@@ -26,7 +26,7 @@ This is a React-based web application for a school website for MadRocket Technol
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Shariq593/School-internship-project.git
 
 2. **Navigate to the project directory:**
     ```

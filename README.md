@@ -1,6 +1,6 @@
 # School Website
 
-This is a React-based web application for a school website for MadRocket Technologies. It includes pages for Home, About Us, Academics, Admission, Gallery, Contact Us, Student, and Faculty. It also features a carousel and dynamic content with lazy loading.
+This is a React-based web application for a school website for MadRocket Technologies And Media. It includes pages for Home, About Us, Academics, Admission, Gallery, Contact Us, Student, and Faculty. It also features a carousel and dynamic content with lazy loading.
 
 ## Features
 
@@ -26,7 +26,7 @@ This is a React-based web application for a school website for MadRocket Technol
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Shariq593/School-internship-project.git
 
 2. **Navigate to the project directory:**
     ```

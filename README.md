@@ -2,6 +2,13 @@
 
 This is a React-based web application for a school website for MadRocket Technologies And Media. It includes pages for Home, About Us, Academics, Admission, Gallery, Contact Us, Student, and Faculty. It also features a carousel and dynamic content with lazy loading.
 
+##Deployed website - https://springdale-internship.netlify.app/
+
+##Requirements of the Assignment - https://github.com/Shariq593/School-internship-project/blob/main/React%20Intern%20Assignment.docx
+
+
+
+
 ## Features
 
 - **HomePage**: The landing page of the website.
